@@ -5,16 +5,32 @@
 
 int main(){
 
-    int nota1, nota2;
+    float nota1, nota2,media;
 
-    scanf("%d %d", &nota1, &nota2);
+    scanf("%f %f", &nota1, &nota2);
 
-    if (nota1 && nota2 > 0 && nota1 ){
+    if (nota1 > 0 && nota1 <= 10){
+        if (nota2 > 0 && nota2 <=10);
 
+        media= (nota1+nota2)/2;
 
+        printf("%f", media);
+
+    }
+    else{
+
+        printf("Nota inválida");
 
 
     }
+    
+
+
+
+
+
+
+    
 
     
 
