@@ -1,0 +1,1 @@
+É uma forma de reduzir a complexidade de vários if … else encadeados.
