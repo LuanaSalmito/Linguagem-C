@@ -17,16 +17,15 @@ int main(){
     //processamento
 
     for (i = numeroa; i <= numerob; i++){
-        if (i%2==0)
-        {   calculo1=soma+i;
-            printf("\n%d", soma);
-        }
+       if (i%2==0)
+       {
+        soma=soma+1;
+       }
         
- 
+        
     }
+    printf("\n%d", soma);
 
-
-
-    
     return 0;
+
 }
